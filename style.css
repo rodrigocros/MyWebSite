@@ -53,10 +53,10 @@ list-style: none;
 {
     display: none !important;
 }
-.main-content
+/* .main-content
 {
     padding-left: 20px;
-}
+} */
 .padd-15
 {
     padding-left: 15px;
