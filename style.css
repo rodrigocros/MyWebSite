@@ -624,11 +624,11 @@ h3.my-profession
     text-transform: capitalize;
     margin: 15px 0 5px;
 }
-.contact.contact-info-item p
+
+.contact .contact-info-item a 
 {
-    font-size: 16px;
-    color: var(--text-black-900);
-    font-weight: 400;
+    color: var(--skin-color);
+    text-decoration: none;
 }
 
 .contact .contact-form
@@ -798,6 +798,7 @@ input::placeholder
     {
         margin: 10px;
     }
+    
     
 
 }
