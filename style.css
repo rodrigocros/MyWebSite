@@ -533,6 +533,7 @@ h3.my-profession
     line-height: 25px;
     text-align: justify;
     color: var(--text-black-900);
+    padding-left: 0px;
 }
 
 
@@ -724,28 +725,51 @@ input::placeholder
     .portfolio .portfolio-item .portfolio-item-inner .carousel-inner,
     .about .about-content .experience,
     .about .about-content .education,
-    .about .about-content .skikkls,
+    .about .about-content .skills,
     .about .about-content .personal-info
     {
         flex: 0 0 100%;
         max-width: 100%;
     }
-    
-    .about .about-content .personal-text p
+    .about .about-content .timeline-box{
+        padding: 0px;
+    }
+
+    .about .about-content .time-line .timeline-title
+    {
+        font-size: 14px;
+    }
+    .about .about-content .time-line .timeline-text, .about .about-content .time-line .timeline-text .text    
+    {
+        font-size: 12px;
+
+    }
+
+    .about .about-content .about-text p
     {
         padding: 0px;
+        font-size: 15px;
+    }
+    .about .about-content .personal-info .info-item p
+    {
+        padding: 0px;
+    }
+    .about .about-content .personal-info .info-item p
+    {
+        font-size: 13px;
     }
     .portfolio .portfolio-item .portfolio-item-inner .carousel-inner
     {
         max-height: 250px;
     }
     
+    
 
     .portfolio .portfolio-item .portfolio-item-inner .carousel-inner .carousel-item
     {
         margin-top: 10px;
-        flex: 0 0 100%;
-        max-width: 100%;
+        flex: 0 0 90%;
+        max-width: 90%;
     }
 
     .portfolio .portfolio-item .portfolio-item-inner .carousel-inner .carousel-item img
@@ -762,6 +786,7 @@ input::placeholder
     {
         font-size: 15px;
     }
+    
     .contact .contact-info-item
     {
         margin: 10px;
