@@ -134,7 +134,7 @@ list-style: none;
 
 .shadow-dark
 {
-    box-shadow: 0 0 20px rgba(48, 46, 77, 0.15);
+    box-shadow: 0 0 20px var(--text-black-700);
     border-radius: 20px;
 }
 
