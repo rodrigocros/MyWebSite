@@ -721,7 +721,7 @@ input::placeholder
     .home .home-info,
     .contact .contact-form .col-6,
     .contact .contact-info-item,
-    .portfolio .portfolio-item,
+    .portfolio .portfolio-item .portfolio-item-inner .carousel-inner,
     .about .about-content .experience,
     .about .about-content .education,
     .about .about-content .skikkls,
@@ -730,9 +730,42 @@ input::placeholder
         flex: 0 0 100%;
         max-width: 100%;
     }
+    
     .about .about-content .personal-text p
     {
         padding: 0px;
-    };
+    }
+    .portfolio .portfolio-item .portfolio-item-inner .carousel-inner
+    {
+        max-height: 250px;
+    }
+    
+
+    .portfolio .portfolio-item .portfolio-item-inner .carousel-inner .carousel-item
+    {
+        margin-top: 10px;
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    .portfolio .portfolio-item .portfolio-item-inner .carousel-inner .carousel-item img
+    {
+        height: 100%;
+        width: 100%;
+    }    
+    .portfolio .portfolio-item .portfolio-text
+    {
+        padding: 5px;
+        margin-top: 0px;
+    }
+    .portfolio .portfolio-item .portfolio-text p
+    {
+        font-size: 15px;
+    }
+    .contact .contact-info-item
+    {
+        margin: 10px;
+    }
+    
 
 }
