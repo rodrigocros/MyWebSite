@@ -765,6 +765,14 @@ input::placeholder
     {
         font-size: 11px;
     }
+    .portfolio .portfolio-heading h2
+    {
+        font-size: 15px;
+    }
+    .portfolio .portfolio-heading h2 span
+    {
+        font-size: 26px;
+    }
     .portfolio .portfolio-item .portfolio-item-inner .carousel-inner
     {
         max-height: 250px;
