@@ -715,9 +715,9 @@ input::placeholder
     }
     .home .home-img 
     {
-        margin-top: 100px;
-        flex: 0 0 100%;
-        max-width: 100%;
+        margin-top: 80px;
+        flex: 0 0 900%;
+        max-width: 80%;
     }
     .home .home-info,
     .contact .contact-form .col-6,
