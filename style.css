@@ -754,12 +754,16 @@ input::placeholder
         font-size: 15px;
     }
     .about .about-content .personal-info .info-item p
-    {
-        padding: 0px;
-    }
+{
+    padding: 0px;
+}
     .about .about-content .personal-info .info-item p
     {
-        font-size: 13px;
+        font-size: 11px;
+    }
+    .about .about-content .personal-info .info-item p span
+    {
+        font-size: 11px;
     }
     .portfolio .portfolio-item .portfolio-item-inner .carousel-inner
     {
