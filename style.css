@@ -710,14 +710,14 @@ input::placeholder
 {
     .home .home-img img
     {  
-        width: 90%;
-        height: 90%;
+        width: 100%;
+        height: 100%;
     }
     .home .home-img 
     {
         margin-top: 80px;
-        flex: 0 0 70%;
-        max-width: 70%;
+        flex: 0 0 80%;
+        max-width: 80%;
     }
     .home .home-info,
     .contact .contact-form .col-6,
