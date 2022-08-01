@@ -561,6 +561,14 @@ h3.my-profession
 {
     margin-top: 20px;
 }
+.portfolio .git-link{
+    text-align: center;
+}
+.portfolio .git-link i
+{
+    font-size: 30px;
+}
+
 .portfolio .portfolio-item .portfolio-text 
 {
     margin-top: 30px;
@@ -569,8 +577,6 @@ h3.my-profession
     color: var(--text-black-700);
     padding-left: 50px;
     padding-right: 50px;
-
-
 }
 
 .portfolio .portfolio-item .portfolio-item-inner .carousel-inner
