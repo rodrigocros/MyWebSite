@@ -790,8 +790,8 @@ input::placeholder
     .portfolio .portfolio-item .portfolio-item-inner .carousel-inner .carousel-item
     {
         margin-top: 10px;
-        flex: 0 0 90%;
-        max-width: 90%;
+        flex: 0 0 100%;
+        max-width: 100%%;
     }
 
     .portfolio .portfolio-item .portfolio-item-inner .carousel-inner .carousel-item img
