@@ -724,6 +724,7 @@ input::placeholder
     }
     .home .home-img 
     {
+        margin-left: 20px;
         margin-top: 80px;
         flex: 0 0 90%;
         max-width: 90%;
