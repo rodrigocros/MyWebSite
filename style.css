@@ -773,6 +773,16 @@ input::placeholder
     {
         font-size: 11px;
     }
+    .about .about-content .personal-info .buttons
+    {
+        margin-right: 30px;
+    }
+
+    .about .about-content .personal-info .buttons .btn
+    {
+        padding: 5px 10px;
+        font-size: 11px;
+    }
     .portfolio .portfolio-heading h2
     {
         font-size: 17px;
